@@ -1,0 +1,35 @@
+<!DOCTYPE html><html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Snake Food Adventure</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>  <div class="container">
+    <h1>🐍 Snake Food Adventure</h1>
+    <p>Eat healthy food and avoid unhealthy food!</p><div class="stats">
+  <p>⭐ Score: <span id="score">0</span></p>
+  <p>❤️ Health: <span id="health">30</span></p>
+</div>
+
+<canvas id="game" width="320" height="320"></canvas>
+
+<h2 id="message">Ready to play!</h2>
+
+<button id="start">START GAME</button>
+
+<div class="controls">
+  <button class="move" data-dir="up">⬆️</button>
+  <div>
+    <button class="move" data-dir="left">⬅️</button>
+    <button class="move" data-dir="down">⬇️</button>
+    <button class="move" data-dir="right">➡️</button>
+  </div>
+</div>
+
+<p>🍎 Healthy Food: +10 score</p>
+<p>🍔 Unhealthy Food: -10 health</p>
+<p>🏆 Enjoy the game!</p>
+
+  </div>  <script src="script.js"></script></body>
+</html>
